@@ -12,7 +12,7 @@ public class StringOperations {
 		System.out.println(str.endsWith("repository"));
 		System.out.println(str.endsWith("to"));
 		System.out.println(str.replace('W', 'E'));
-		System.out.println(str.replaceAll("Welcome", "Hoola"));
+		System.out.println(str.replaceAll("Welcome","Hoola"));
 		System.out.println(str.length());	
 	}
 
