@@ -33,7 +33,10 @@ public class FunctionsExample2 {
 		for(String c : str7) {
 		System.out.println(c);
 		}
-		
+		//trim() method, here this is using for eliminating leading & trailing whitespaces
+		String str8 = "      Focusing is main Important  ";
+		System.out.println(str8);
+		System.out.println(str8.trim());
 		
 	}
 }
